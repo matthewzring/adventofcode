@@ -4,7 +4,7 @@ def main():
     left = []
     right = []
 
-    with open ('input.txt', 'r') as input:
+    with open('input', 'r') as input:
         for line in input:
             left.append(int(line.split('   ')[0]))
             right.append(int(line.split('   ')[1]))

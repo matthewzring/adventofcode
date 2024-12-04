@@ -7,7 +7,7 @@ def is_safe(levels):
     return all(-3 <= increment <= -1 for increment in differences) or all(1 <= increment <= 3 for increment in differences)
 
 def main():
-    with open ('input.txt', 'r') as input:
+    with open('input', 'r') as input:
         # Calculate the number of safe reports
         safe = 0
         for report in input:
